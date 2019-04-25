@@ -55,6 +55,9 @@ public class CandyMachineApplication {
 			dispenser.makeSale();		
 			
 			System.out.println("Collect your item at the bottom and enjoy!");
+			System.out.println("Program will run again.");
+
+			System.out.println();
 			
 		}else {
 			System.out.println("This item has run out! Please select another item.");
@@ -100,6 +103,7 @@ public class CandyMachineApplication {
 			default:
 				System.out.println("Invalid Selection. Please try again.");
 			}
+			System.out.println("");
 			showSelection();
 			choice = sc.nextInt();
 		}
