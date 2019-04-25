@@ -21,7 +21,7 @@ public class Register {
 	//accept input of cash from customer
 	//and update the COH
 	public void acceptPayment(int payment){
-		cashOnHand = cashOnHand - payment;
+		cashOnHand = cashOnHand + payment;
 	}
 	
 	//takes no parameters but returns the current COH
